@@ -68,6 +68,10 @@
     <None Include="Properties\ScriptCs.Core.nuspec" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Utilities\Utilities.csproj">
+      <Project>{ad2dfe92-f809-4461-aa77-afb277341801}</Project>
+      <Name>Utilities</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ScriptCs.Contracts\ScriptCs.Contracts.csproj">
       <Project>{6049e205-8b5f-4080-b023-70600e51fd64}</Project>
       <Name>ScriptCs.Contracts</Name>
